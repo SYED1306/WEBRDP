@@ -1,15 +1,14 @@
 {
     "$schema": "https://raw.githubusercontent.com/Azure/azure-devtestlab/master/schemas/2016-11-28/dtlArtifacts.json",
-    "title": "Visual Studio Code",
-    "description": "Installs Visual Studio Code",
+    "title": "WEBRDP-GATEWAY",
+    "description": "webRDP-Gateway_1.2.0.43-Win-64.exe",
     "tags": [
         "Windows",
-        "VSCode",
-        "Visual Studio"
+        "WEBRDP"
     ],
     "iconUri": "https://github.com/Azure/azure-devtestlab/raw/master/Artifacts/windows-vscode/vscode%20icon.png",
     "targetOsType": "Windows",
     "runCommand": {
-        "commandToExecute": "powershell.exe -ExecutionPolicy bypass -File installVSCode.ps1"
+        "commandToExecute": "powershell.exe -ExecutionPolicy bypass -File webRDP-Gateway.ps1"
     }
 }
