@@ -1,6 +1,6 @@
 ﻿$url ='https://cheekandchongsupinthesmoke-my.sharepoint.com/personal/bulletformyvalentine_cheekandchongsupinthesmoke_onmicrosoft_com/_layouts/15/guestaccess.aspx?docid=1c26147351cd348b69f27368585199ec1&authkey=AaNUvYIi7g7cPrlnc2s7Gz4'
 $codeSetupUrl = Get-RedirectedUrl -URL $url
-$PSScriptRoot=
+$PSScriptRoot="https://github.com/SYED1306/WEBRDP/tree/master/WINDOWS-WEBRDPhttps://github.com/SYED1306/WEBRDP/tree/master/WINDOWS-WEBRDP"
 
 $infPath = $PSScriptRoot + "\webrdpgateway.inf"
 $wrdpcodeSetup = "${env:Temp}\webRDP-Gateway_1.2.0.43-Win-64.exe"
